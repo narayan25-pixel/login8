@@ -1,27 +1,19 @@
+body{
+    font-family: 'Lobster', cursive;
+}
 .backgroundcontainer{
     background-image: url("./images/3784896.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-    width: 100%;
-    background-position: center;
-    display: flex;
+    width: auto;
 }
 
-.divcard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    /* height: 100vh; */
-    flex-direction: column;
-    justify-items: center;
-    /* spadding: 5rem; */
-    
-}
+
+
 .card{
-    border-radius: 2rem;
+    justify-content: end;
 }
 .ordiv{
     display: flex;
@@ -36,15 +28,4 @@
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
-    /* background-color: orange; */
-}
-
-/* .logoclass{
-    display: flex;
-    justify-content: flex-start;
-    align-self: auto;
-} */
-
-.card{
-    margin: 5vh;
 }
