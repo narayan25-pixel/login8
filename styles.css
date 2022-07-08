@@ -1,31 +1,29 @@
-body{
-    font-family: 'Lobster', cursive;
+body {
+  font-family: "Lobster", cursive;
 }
-.backgroundcontainer{
-    background-image: url("./images/pexels-dziana-hasanbekava-7809803.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
-    width: auto;
-}
-
-
-
-.card{
-    justify-content: end;
-}
-.ordiv{
-    display: flex;
-    justify-content: center;
-}
-.forgotpassword{
-    display: flex;
-    justify-content: flex-end;
-    font-size: x-small;
+.backgroundcontainer {
+  background-image: url("./images/pexels-dziana-hasanbekava-7809803.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  /* max-width: 100vw; */
+  /* width: 100vh; */
 }
 
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
+.card {
+  width: 70%;
+}
+.ordiv {
+  display: flex;
+  justify-content: center;
+}
+.forgotpassword {
+  display: flex;
+  justify-content: flex-end;
+  font-size: x-small;
+}
+.centerclass {
+  display: flex;
+  justify-content: center;
 }
